@@ -1,0 +1,348 @@
+---
+title: "Beyond Silos: Mathematical Problem Posing as a Catalyst for Interdisciplinary Inquiry"
+bibliography: crit.bib # include references file
+csl: apa.csl
+output:
+  word_document:
+    toc: false
+    reference_docx: word-styles-reference.docx
+  pdf_document:
+    toc: false
+    toc_depth: 2
+    number_section: true 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    theme: flatly
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+\newpage
+
+# Abstract
+
+Despite having roots in Paulo Freire's problem-posing education, traditional research on problem posing, especially in mathematics education, often dismisses the critical and dialogical aspects of Freire's original conceptions.
+As theories and frameworks around critical quantification and real-world problem posing are developed in K-12 and post-secondary contexts, there is a growing need to investigate where these orientations overlap.
+This article explores the connections between problem posing in mathematics and Freire's problem-posing education, a key component of his philosophy of critical pedagogy, to frame the importance of history and quantification in interdisciplinary learning.
+Specifically, the relationships between Freire's problem-posing education, mathematical problem posing, and modern computational and quantitative tools are used to outline a model that considers interdisciplinary learning and cross-disciplinary connections.
+Using critical curricular orientations, this article examines problem-posing pedagogy that emphasizes collaboration, diverse voices, creativity, critical inquiry, and action to inform interdisciplinary curricula.
+Finally, Freire and others' conceptions of revolutionary futurity are used to outline interdisciplinary approaches to curriculum development that will support educators and researchers in developing models that respond to societal changes and engage learners across multiple subject areas using historical perspectives, real-time, real-world data, and modeling practices.
+
+**Keywords**: critical pedagogy, problem posing, interdisciplinary, Freire, mathematics education
+
+\newpage
+
+# Introduction
+
+The general concept of problem-posing education is often attributed to Paulo Freire, author of *Pedagogy of the Oppressed* [@freiri1970pedagogy].
+Problem-posing education is a component of Freire's critical pedagogy that builds on the various applications of critical theory, which is a reflective evaluation and critique of society and culture, in the contexts of teaching and learning [@giroux2023critical; @kellner2003toward; @kincheloe2008critical; @ladson1997chapter; @ladson2014put; @winn2016we].
+Freire's work has been used to re-imagine educational practices in ways that shift the relationship between students and teachers.
+This shift includes attention to student voice, developing critical consciousness, and education as a practice of building literacy and liberation through critique and action.
+However, in some fields, the application of Freire's original concepts and priorities have been left in the past.
+This increasing absence of his specific historical foundation of problem posing pedagogical practices poses multiple issues in the collective effort to improve teaching and learning, especially as scholars consider new theoretical extensions [@ladson2014put].
+As new tools are developed in the sciences, technology, and mathematical disciplines, there is a pressing need to ensure that these connections are not only considered in the research literature but also in the development and implementation of interdisciplinary curriculum [@nasir2021rethinking].
+
+Traditional studies on mathematical problem posing, however, primarily focus on ways to improve cognition [@liljedahl2021empirical; @kilpatrick1987problem], creativity [@ellerton1986children; @mann2006creativity; @silver1997fostering], teachers' and students' ability to pose problems [@brown2005art; @crespo2008makes], and research on the impact of problem posing on student learning across a considerable number of studies [@rosli2014effects].
+Still, scholars in this area have noted that there are a host of unanswered questions about the future of problem posing research [@cai2015problem].
+In this body of research literature, much less attention has been paid to the critical pedagogical components of problem posing, various community aspects, and the importance of critical literacy that problem-posing education was situated around [@freiri1970pedagogy].
+More specifically, research on mathematical problem posing strays away from the more critical, dialogical aspects of problem-posing's foundations in teaching for equity and social justice in the local community context [@solorzano1997freire].
+In light of advances in the research on educational technology and problem posing in mathematics education [@liljedahl2021empirical], specifically with regards to computation and data science, this article will identify connections between mathematical problem posing and Paulo Freire's conceptions of problem-posing education - a core feature of his broader philosophy of critical pedagogy [@caulfield1991brazil; @khandekar2021paulo; @solorzano1997freire].
+By doing so, this article will attend to both the perils and promises of interdisciplinary learning when the foundations or problem-posing education are ignored in curriculum development and educational practice.
+
+There is also a need to examine the relationship between Freire's problem-posing education and the ways that scholars of mathematical problem posing research have focused their analyses to develop a framework that can better attend to important interdisciplinary learning connections.
+These connections will support a host of disciplines across the social and mathematical sciences; for example, in the consideration of the intersection of mathematics, history, and social studies [@mcgee2014historicizing] across primary, secondary, and post-secondary settings.
+Moreover, this examination can contribute to the development of multiple interdisciplinary problem posing models that emphasizes critical thinking, collaboration, awareness via diverse voices, and responsiveness across multiple subject areas and, importantly, consider the ideas and practices of multiple disciplines in the development of these problems.
+Currently, the disciplinary nature of post-secondary education, as one example, largely maintain the focus on the separate subject areas in secondary settings that may minimize or completely ignore the value of modern computational tools and resources that can support students' thinking and critical insights into the real world.
+
+As critical pedagogy continues to expand as a global movement and philosophy of education, scholars must address the additional challenge of incorporating new tools, such as technologies and computational tools, as they push against dominant theories of practice [@freiri1970pedagogy; @ladson1997chapter; @kincheloe2008critical].
+In mathematics education specifically, scholars have identified ways that critical mathematics and social justice pedagogies empower students to think critically (Frankenstein, 1983), develop agency [@gutstein2007and], and improve students' sense of well-being (Kokka, 2019).
+Naturally, these inquiries incorporate different disciplines into learners' study.
+These examples also exist to help us understand the impact of Freire's critical philosophies across education, and they help practitioners further imagine the impact on the framing of problem posing and problem-posing education.
+Still, despite these strong connections between problem-posing education and mathematical problem posing, current examples of critical mathematics have yet to permeate the research on mathematical problem posing and vice versa, creating the condition that not only Freire but those scholars who have built on his work in mathematics education have been largely ignored.
+To address this gap, this article discusses mathematical problem posing and critical mathematics (CM), which is also sometimes referenced as teaching and learning mathematics for social justice (TLMfSJ), to identify specific connections and sample practices that can inform the ways that mathematical problem posing can be used as a tool for interdisciplinary learning.
+More specifically, this article asks: *How can the components of mathematical problem posing and Freire's concept of problem-posing education be examined and leveraged to develop an interdisciplinary curriculum framework that better situates the role of modern computational and quantitative tools?*
+
+To answer this question, this article takes a particular interest in the different components of mathematical problem posing and Paulo Freire's problem-posing education to develop a conception of interdisciplinary teaching and learning that leverages computational and quantitative tools.
+By building on Freire's critical pedagogy, this article will examine how mathematical problem posing has evolved, taking note of how it has increasingly diverged from the original emphasis on critical inquiry, social justice, and community engagement in real-world contexts.
+In response, this article outlines a set of components to make sense of different interdisciplinary connections, particularly between the social sciences and mathematical (or quantitative) sciences.
+This model serves as an initial component to framing interdisciplinary learning to make sense of potential relations to data science and the integration of modern technologies.
+This article begins by establishing a theoretical framework drawing on Freire’s work and the existing literature on mathematical problem posing, then present the critical problem-posing model, and conclude with a discussion of its implications for interdisciplinary curriculum development.
+
+A critical problem posing approach in an interdisciplinary context stresses collaboration like other models but emphasizes the importance of providing tools that create space for diverse voices in seemingly homogeneous groupings, encourage creativity in approaches and applications, and promote further critical inquiry beyond current available tools.
+When this approach is considered, new formulations of interdisciplinary learning can be explored as it relates to a series of inquiries around computation and technology in problem posing research and, more broadly, the role of mathematical problem posing in developing curriculum that fosters critical thinking and social awareness using modern tools.
+Based on the work of critical mathematics education scholars, Freire’s broader philosophy of education has been able to challenge multiple disciplines to consider the overarching goals that frame interdisciplinary instruction, as well as the content and context of the problems [@avci2018critical; @frankenstein1983critical; @gutstein2007and; @kokka2022toward; @skovsmose1994towards; @tate1995returning].
+Despite decades of research on the impact of different ideologies on curriculum develop [@apple2004ideology], there is still a need to continue to understand the impact of disciplinary ideologies in relation to increasingly interdisciplinary curriculum [@nasir2021rethinking].
+In the area of science and mathematics education, for example, critical scholars have identified the ways that problem-posing education can be used to confront issues of race and racism in education [@smith2002using].
+However, those scholars focusing on problem posing in mathematics have yet to consider these extensions.
+The need for more critical and inquiry-based practices at an interdisciplinary juncture also requires recent considerations from the field of data science curriculum, such as those considerations regarding equity, ethics [@alexander2022beyond; @weiland2022transforming]; when placed within this framing, presents multiple avenues for expanding problem posing research towards the development of more interdisciplinary curriculum.
+
+# Theoretical Framework
+
+## Freire's Problem-Posing Concept
+
+Freire’s most popular philosophy of education, outlined in his 1970 text *Pedagogy of the Oppressed* situates the concept of problem-posing education.
+Freire's concept holds concrete implications for exploring ideas around interdisciplinary learning with regard to the ongoing development of new learning tools, and especially those in mathematics and the quantitative social sciences.
+Prior to the development of this exploration, though, it will be important to reconsider some of the roots of problem-posing as a practice centered in a broader philosophy of education and, in particular, critical pedagogy.
+Freire’s development of problem-posing education is discussed in contrast to what he calls the “banking” concept of education where “students are the depositories and the teacher is the depositor” [@freiri1970pedagogy, p. 72].
+He noted that “in [problem-posing education learners] come to see the world not as a static reality, but as a reality in process, in transformation” (p. 83).
+He also argues at length that education had become the mere act of depositing information, and that a student’s role in the classroom was relegated to simply receiving this information, filing it away, and storing the deposits:
+
+> "In the banking concept of education, knowledge is a gift bestowed by those who consider themselves knowledgeable upon those whom they consider to know nothing. Projecting an absolute ignorance onto others, a characteristic of the ideology of oppression, negates education and knowledge as processes of inquiry. The teacher presents himself to his students as their necessary opposite; by considering their ignorance absolute, he justifies his own existence" [@freiri1970pedagogy, p. 72].
+
+Problem-posing education was originally developed as a way to disrupt this vertical, top-down arrangement that is visible in many mathematics classrooms.
+Freire reimagines education as a community enterprise founded on respect and a mutual responsibility for others’ learning.
+He notes that “through dialogue, the teacher-of-the-students and the students-of-the-teacher cease to exist and a new term emerges: teacher-student with students-teachers,” and “in this model, students and teachers become “jointly responsible for a process in which all grow” [@freiri1970pedagogy, p. 80].
+In addition to the development of community practices in which problem posing can occur, Freire’s philosophy seeks to expose relationships between education and the broader society and identify systems that oppress certain groups and communities.
+In this model, students become direct contributors to their education—as opposed to deposits—through a process of joint exploration and critical questioning that focuses on a “process of becoming” in the broader global context (p. 84).
+To that end, he reminds readers that "in [this] revolutionary process, the leaders cannot utilize the banking method as an interim measure, justified on grounds of expediency, with the intention of later behaving in a genuinely revolutionary fashion. They must be revolutionary—that is to say, dialogical—from the outset" [@freiri1970pedagogy, p. 86].
+
+@freiri1970pedagogy also identifies ways that problem-posing education helps to transcend classrooms in ways that do not withhold opportunity from students but, instead, becomes a process of teaching and learning that informs multiple roles for those involved.
+He continues his discussion by noting that educators must contend with the dichotomy and the contradiction between the teacher and the student.
+He resolves this contradiction by positioning teachers as learners and students as teachers.
+Namely, everyone contributes, and everyone learns.
+In doing so, a critical praxis is developed where power and identity are disrupted in traditional forms of education.
+He states:
+
+> "Problem-posing education, as a humanist and liberating praxis, posits as fundamental that the people subjected to domination must fight for their emancipation. To that end, it enables teachers and students to become Subjects of the educational process by overcoming authoritarianism and an alienating intellectualism; it also enables people to overcome their false perception of reality. The world—no longer something to be described with deceptive words—becomes the object of that transforming action by men and women which results in their humanization" (p. 86).
+
+While problem-posing education is a critical feature of Freire’s broader philosophy of critical pedagogy [@solorzano1997freire], there are related components that can be used to expand the ways that interdisciplinary learning can be framed.
+These related features of problem-posing education have been described by mathematicians and educators alike, yet there is still a need for more attention to understand the humanist and liberating practices in the context of problem posing together as a means to advance interdisciplinary learning.
+For example, @silver1994mathematical notes that “less attention has been paid to diversifying the sources for the problems that students are asked to consider in school” (p. 19).
+Relatedly, @gutstein2007and notes that a major pedagogical goal of teaching mathematics for social justice is to have students create a sense of themselves and an agency to change the world—which comes directly as a result of the diverse types of problems students consider in mathematical contexts.
+Integrating these perspectives, a focus on critical pedagogy presents avenues to explore new norms and innovations in problem posing.
+These approaches build directly from @freiri1970pedagogy and his belief that "problem-posing" education, responding to the essence of consciousness—*intentionality*—rejects communiqués and embodies communication" (p. 79).
+
+## Problem Posing in Traditional Mathematics
+
+Problem posing research is expanding in the field of mathematics education.
+In a majority of contemporary texts on mathematical problem posing, we learn of George Pólya's important contributions to the importance of posing questions [@brown2005art].
+However, we find evidence of another major domain of influence on mathematical problem posing—Paulo Freire's critical pedagogy.
+This contribution is noted in @singer2015mathematical:
+
+> "Since 1970, when Paulo Freire introduced the term problem-posing education in his book *Pedagogy of the Oppressed* as a metaphor for emphasizing critical thinking, the problem posing methodology extended to various domains of knowledge. Within learning environments that offer a range of activities, sources for study, opportunities for interaction, and an emphasis on exploration and application, students can actively construct meaning in both the natural and simulated worlds, in the classroom. Teachers and students might create knowledge together in a variety of contexts and generate and address critical questions about the knowledge they produce. In Freire’s vision, all these could help to develop more democratic, diverse, critically thinking members of society" [@singer2015mathematical, p. vii].
+
+Evidence of these critical roots to mathematical problem posing research can also be found in earlier volumes in the mathematics education research literature.
+For example, *The Art of Problem Posing* by @brown2005art includes both a citation and multiple references to Freire’s *Pedagogy of the Oppressed*.
+In fact, the authors begin their text with a note that research on problem posing in mathematics education has as its purpose “to encourage a shift of control from "others" to oneself in the posing of problems," a core feature of critical pedagogy; they continue by noting that "problem posing can help students to see a standard topic in a sharper light and enable them to acquire a deeper understanding [and] can also encourage the creation of new ideas derived from any given topic – whether a part of the standard curriculum or otherwise" (p. 1). @silver1994mathematical cites Freire in his discussion of mathematical problem posing as a feature of inquiry-oriented instruction. Silver states that inquiry-oriented approaches “challenge the rigid hierarchies associated with conventional conceptions of mathematics, mathematics curriculum and mathematical ability” (p. 21). He also notices that:
+
+> "Some form of inquiry-oriented instruction has long been offered to students from social and economic elite groups, but it has generally been denied to those who come from less privileged backgrounds. Despite this historical pattern, inquiry-oriented instruction can be seen to have close connections to arguments for emancipatory education for all students" [@silver1994mathematical, p. 21].
+
+However, beyond identifying the features of these inquiry-oriented practices (e.g., high-level thinking), less work has explored its connections to Freire's broader conceptions of emancipatory education.
+The National Council of Teachers of Mathematics' (NCTM) 1989 *Curriculum and Evaluation Standards* reflect this shift towards inquiry-oriented instruction and student-centered problem posing:
+
+> "Experiences designed to foster continued intellectual curiosity and increasing independence should encourage students to become self-directed learners who routinely engage in constructing, symbolizing, applying, and generalizing mathematical ideas" [@national1989curriculum, p. 128].
+
+So do the 1991 *Professional Standards for Teaching Mathematics*:
+
+> "Teaching mathematics from a problem-solving perspective entails more than solving nonroutine but often isolated problems or typical textbook types of problems. It involves the notion that the very essence of studying mathematics is itself an exercise in exploring, conjecturing, examining, and testing—all aspects of problem solving. Tasks should be created and presented that are accessible to students and extend their knowledge of mathematics and problem solving. Students should be given opportunities to formulate problems from given situations and create new problems by modifying the conditions of a given problem" [@national1991professional , p. 95].
+
+Problem solving and problem posing are distinct in their focus and form, as noted in NCTM’s formulations of mathematics teaching.
+Although research on problem solving has a solid foundation in the field of mathematics education, less work has been done on problem posing [@cai2015problem].
+Similarly, in relation to critical pedagogy [@freiri1970pedagogy], less research has been conducted on problem-posing education.
+The majority of problem-posing studies in mathematics education focus on the various features of posing problems, sometimes using real-world scenarios, but these studies almost never focus on Freire’s underlying philosophy in problem-posing education that focus on the development of critical inquiries about the broader world; we do, however, see these applications in the areas of critical mathematical scholarship, and specifically in the research on TLMfSJ, despite there not being a primary focus on problem posing [@gutstein2007connecting; @kokka2020social].
+
+Despite Freire’s contribution to the development and expansion of problem-posing research in mathematics education, and arguably in science, technology, engineering, and mathematics (STEM) education more broadly, most studies discussing mathematical problem posing have departed from these curricular foundations.
+Table 1 presents the summary components of two main scholars recognized in the research on problem posing in mathematics.
+As scholars often build on the work of these research, in some instances, Freire has been reduced to a citation.
+Over time, however, the mention of these critical foundations provided by Freire have all but disappeared in the research literature.
+In @rosli2014effects, for example, who conduct a meta-analysis of the research literature published between 1989 and 2011 on the effects of problem posing on student learning in mathematics, there is no mention of Freire, critical pedagogy, or problem-posing education – despite the review covering a host of journals, master's theses, and doctoral dissertations.
+
+**INSERT TABLE 1. COMPONENTS OF PROBLEM POSING.**
+
+## Problem Posing in Critical Mathematics
+
+Critical mathematics is an approach to teaching and learning mathematics that infuses Freire’s commitment to liberation.
+Despite the increasing absence of Freire in the traditional research on problem posing in mathematics, critical scholars in mathematics education have situated a large part of their work around practices that center on problem-posing education, whether it is stated explicitly or described in different ways within the literature.
+Freire reimagines education as a communal enterprise, one that is founded on aspects of respect and a mutual responsibility for others’ understanding.
+It is easy to see how its development in mathematics can become a powerful tool not only for teaching and learning but also for the development of academic communities, which have been found to improve engagement [@walker2012building].
+
+Our discussion begins by identifying some components of critical mathematics.
+These components extend beyond some of Freire’s discussions of problem-posing education and relate to critical pedagogy.
+Just as problem-posing education is rooted in Freire’s overarching philosophy of critical pedagogy, critical mathematics can be framed as an inquiry-based approach to teaching and learning mathematics that attends to Freire’s commitments.
+For example, @gutstein2007connecting, building on the work of @frankenstein1983critical and @skovsmose1994towards, describes teaching and learning mathematics for social justice as follows:
+
+> "Though proponents and researchers describe teaching and learning mathematics for social justice in different ways (e.g., some refer to it as “critical mathematics”), there are certain common pedagogical aims. Two of the most central are that students develop both critical consciousness and mathematical competencies, and there is also the view that these two areas of learning need to be dialectically interwoven by both teachers and students in a conscious manner. That is, mathematics should be a vehicle for students to deepen their grasp of the sociopolitical contexts of their lives, and through the process of studying their realities—using mathematics—they should strengthen their conceptual understanding and procedural proficiencies in mathematics" [@gutstein2007connecting, p. 109].
+
+In the context of problem-posing education, we might return to @freiri1970pedagogy to examine its relation to these studies; Freire states that “in [problem-posing education learners] come to see the world not as a static reality, but as a reality in process, in transformation” (p. 83).
+The process of transformation lends itself naturally to the goals of creativity inherent in mathematical problem posing while also focusing on the central conditions of iteratively developing different forms of knowledge.
+In critical mathematics, three functions are identified as core components in the learning process: analyzing injustice, critiquing how mathematics is used to structure and maintain power, and planning to enact change [@frankenstein1983critical; @gutstein2007connecting; @skovsmose1994towards].
+@gutstein2007connecting and @gutstein2016our extend conceptions of these ideas when identifying the 3 C’s: classical, community, and critical knowledge (see Table 2).
+These forms of knowledge are interwoven to help community members develop critical consciousness and the "mathematical understanding served as a form of "reflection," while students' involvement and connection to political movements was "action"—it is precisely the dialectical relation- ship of these two ideas that characterizes Freire’s notion of praxis and creates the basis to read and write the world" [@gutstein2007and, p. 433].
+
+**INSERT TABLE 2. THREE C'S OF CRITICAL MATHEMATICS.**
+
+When we extend these ideas to the considerations taken by scholars focused primarily on problem posing in mathematics [@cai2015problem; @kilpatrick1987problem], there are important extensions that further our insights on critical thinking, collaboration, awareness, and responsiveness to inform perspectives on interdisciplinary learning within and across the subject areas [@mcgee2014historicizing; @nasir2021rethinking].
+In the context of mathematical problem posing, critical thinking should involve questioning assumptions, analyzing problems from multiple perspectives, and connecting mathematical concepts to broader societal issues.
+This shift, as outlined by @gutstein2007connecting, encourages students to evaluate and critique mathematical models and their real-world applications, fostering a deeper understanding of the subject and its relevance.
+Collaboration in mathematical problem posing emphasizes group activities that leverage diverse perspectives and experiences, promoting peer-to-peer learning, knowledge sharing, and the collective tackling of complex, interdisciplinary problems – which has important insights for other subject areas.
+This interdisciplinary focus aligns with Freire's vision of education as a community enterprise where students and teachers learn from each other, echoing Gutstein's emphasis on community knowledge.
+In critical problem posing, awareness should refer to developing students' understanding of the social, cultural, and political contexts of the work using modern day tools on historical problems and contemporary issues.
+This historical approach involves recognizing diverse traditions and contributions and increasing consciousness of how mathematics and computation can be used to address real-world issues and social injustices across different areas of learning, aligning with Gutstein's focus on critical knowledge.
+Responsiveness, in this context, means adapting problem-posing activities to reflect current events and local community concerns.
+Altogether, these intersections encourage students to create problems that address relevant social issues and develop flexibility in their thinking to respond to changing societal needs.
+This aspect aligns with Freire's concept of education as a tool for social transformation and empowerment, while reinforcing the importance of classical knowledge as a tool to read and write the world.
+
+# Problem Posing Vignettes
+
+The research literature on problem posing, both in traditional mathematics and in critical mathematics, provides a requisite set of interdisciplinary learning perspectives and tools.
+Unlike other disciplines, mathematics is not immediately interdisciplinary in nature, and mathematics educators, especially those who take on the practices of TMfRJ and CM, are often required to reconcile the critical and mathematical aspects of their work.
+To operationalize the framing provided in Table 1 and Table 2, and to help situate the various components of interdisciplinary learning, a set of vignettes are presented to help the reader understand how mathematics and computational tools are important considerations for improving interdisciplinary learning in the future.
+Currently, interdisciplinary learning often refers to the intersection of two or more disciplines, as opposed to a fully integrated and fluid set of ideas that provide students with multiple opportunities to understand real-world contexts and problems.
+
+The data for the vignettes are taken from a broader three-year study focused on identifying mathematical models focused on equity and justice in real-world contexts^1^.
+More than sixty high-school students enrolled in a five-week residential program were given an opportunity to engage in various modeling problems, a total of five, prior to and during the course.
+Interactive lectures, online videos, and games were also used to allow students to formulate and reformulate various perspectives on problems based on the weekly lectures.
+In each course, developed in conjunction with the program staff and program directors, students engaged in a series of problem-posing activities to elicit their thinking about various historical issues related to U.S. law and public policy, as well as local issues surrounding politics, public policy, and community engagement in the city of Atlanta, Georgia, USA. Each class was roughly made up of 15 to 17 students who were allowed to self-select into small groups of four to five each.
+
+## Vignette 1: Measures of Residential Segregation
+
+Neighborhood segregation is a historical public policy issue that has impacted historically marginalized communities in multiple ways, especially in the United States.
+Several measures exist to quantify how neighborhoods can be analyzed with regards to residential segregation.
+These measures include the Index of Dissimilarity, the Isolation Index, the Exposure Index, the Gini Coefficient, and the Atkinson Index.
+Several measures exist to quantify the phenomenon of neighborhood segregation.
+The Index of Dissimilarity captures the percentage of a given group that would need to move to achieve an even distribution across all neighborhoods in a city, and it is based on a single value ranging from 0, indicating perfect integration, to 1, indicating complete segregation.
+The Isolation Index focuses on the extent to which members of a given group are exposed to one another within their given neighborhoods.
+The Exposure Index, however, measures the degree to which members of a given group are exposed to other group members in their neighborhoods.
+The Gini Coefficient is a popular measure used for multiple purposes, and when applied to segregation, it measures the unevenness with which two groups are distributed across a city or given geographical unit, with higher values suggesting greater segregation.
+The Atkinson Index, which is similar to the Gini Coefficient, provides another measure of unevenness in the distribution of groups, but it offers the flexibility to assign different weights to different parts of the distribution.
+
+Over the last several decades, researchers in the quantitative social sciences have developed a host of tools to support scholars in conducting research using these measures.
+Despite the availability of these new technological tools, and their open-source^3^ nature, they have yet to permeate K-12 and many undergraduate curricula.
+The measures of residential segregation are most often used to understand racial segregation in the United States and provide an opportunity to generate interdisciplinary learning curricula that consider the mathematical components of problem-solving.
+Building on the literature in critical mathematics, these curricula can help students think about historical conditions, contemporary constraints, and additional possibilities related to different areas of inquiry.
+
+Students were asked to develop two hypothetical schemes representing different instances of the measures of residential segregation.
+These schemes modeled possible geographical units prior to court-mandated racial desegregation in the United States^4^.
+Neighborhood units were drawn, with each household unit (represented by a dot) included in a specific neighborhood unit.
+Using these models, students posed various context-based mathematical problems using real-world data and considered the historical, social, and even artistic renderings of their scenarios.
+They worked in small groups to generate a series of problems for the following year's group and to hypothesize about the outcomes of their models.
+More mathematically inclined students had the opportunity to develop code in the R software program and use U.S.
+Census Bureau data to map their outcomes.
+Together, students examined, for example, how dissimilarity might change over time and/or within different geographical units around the city based on various social and historical movements.
+Based on their initial models, students were then provided with new schemas and provided with an opportunity to pose new problems focused on the concept of futurity.
+This concept was based on Freire's framing and situated around an example focused on education and the impact of housing locations and prices on local school economies.
+They were provided with source materials to read and review various perspectives in order to produce a legal memo, and then they developed opinions based on the various ideas of equity and neighborhood composition that they had developed in their models.
+
+## Vignette 2: The Prisoner's Dilemma
+
+The second vignette provided here is based on the classic game theory problem known as the prisoner's dilemma^5^.
+The prisoner’s dilemma is one of the most famous games analyzed in game theory, and it attempts to show why two completely "rational" individuals might not cooperate, even if it appears to be in their best interests.
+It was originally framed by Merrill Flood and Melvin Dresher while working at RAND in 1950.
+Albert W. Tucker formalized the game with prison sentence rewards and named it "prisoner’s dilemma" [@poundstone1992prisoner], presenting it as follows:
+
+> *Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge. They hope to get both sentenced to a year in prison on a lesser charge. Simultaneously, the prosecutors offer each prisoner a bargain: Each prisoner is given the opportunity either to betray the other by testifying that the other committed the crime or to cooperate with the other by remaining silent*.
+> *The offer is: If A and B each betray the other, each of them serves 2 years in prison; If A betrays B but B remains silent, A will be set free and B will serve 3 years in prison (and vice versa); If A and B both remain silent, both of them will only serve 1 year in prison (on the lesser charge)*.
+
+General considerations of the prisoner’s dilemma are seemingly neutral, and the majority of contexts surrounding the prisoners' decisions and choices are often not considered.
+However, when we zoom out slightly and consider various facets of the varying contexts, a critical orientation to mathematical problem posing provided an entry point for students to be creative and develop scenarios and/or responses to the model’s specification by taking new articles and other real-world events to frame the model.
+In some instances, students sought to change the model completely, citing its lack of context.
+What we find in these instances are two important components of interdisciplinary learning that build on the traditional features of problem posing and those found in critical mathematics.
+Specifically, in this model, students considered the social, political, economic, and physical conditions and related ramifications.
+In doing so, four areas of creative exploration for critical problem posing were identified for students to work on either in tandem or as isolated conditions.
+When students took these factors into consideration, they begin to see that the prisoner’s dilemma is not such a simple problem in a real-world setting, furthering the depth of the interdisciplinary learning exercise.
+
+To further adapt this model and provide students with an opportunity to see a different problem posed on the same model, we engaged with the interactive version of the prisoner’s dilemma found in the online module by a digital software developer Nicky Case^6^.
+In this extension of the model, students have the opportunity to see a different politicized version and pose additional scenarios and problems related to the mathematical outcomes.
+The scenario is similar to the original problem, but in this version, players are presented with an opportunity to cooperate or cheat in real-time using the online applet.
+When a player chooses to cooperate, one coin is placed into a machine, which then gives the other player two coins.
+When a player chooses to cheat, no coins are placed into the machine, and the other player receives no coins.
+Prior to real-time gameplay, students used actual change that I provided, and they were able to examine their choices and identify various strategies.
+
+# Learning across the disciplines
+
+The vignettes outlined present two examples that provide a different view of the often siloed nature of both mathematics teaching and learning, and push against many interdisciplinary learning units that fail to fully acknowledge the power of critical inquiry and mathematics across the disciplines [@gutstein2012reading; @tate1995returning].
+The aforementioned problems are also representative of the types of content- and context-heavy situations that can be used to engage students in critically analyzing mathematical problems and proposing alternative models, situations, or new problems.
+Although there is little precedent for examining these types of problems in the broader research on mathematical problem posing, there are various opportunities for scholars and practitioners to consider the adaptation of these vignettes and other examples in the development of interdisciplinary curricula that can make use of real world data and computational and quantitative tools to advance our conceptions of learning across the disciplines.
+Freire notes that “the problem-posing educator constantly reforms his reflections in the reflection of the students.
+The students—no longer docile listeners—are now critical co-investigators in dialogue with the teacher” (p. 80).
+Still, despite the exciting opportunities that these examples hold, there may be issues with implementing these problems in a traditional school setting in today's increasingly divided political world [@apple1993politics].
+
+However, Freire’s work has guided efforts to improve conditions for marginalized groups through an awakening of critical consciousness (conscientização) and emancipation from oppressive conditions through critique and action with a specific focus on questions around *which* problems should educators be considering to pose to students.
+As the interdisciplinary learning sciences is advocated for by researchers [@nasir2021rethinking], new opportunities for the integration of some of the modern tools outlined in the vignette and other open source, technological focused, and other computational connections are presented.
+Critical scholars in mathematics education, however, have long considered the importance of learning across the disciplines, and while the focus of the majority of research in critical mathematics has not been explicitly focused on problem posing, the integration of Freire's problem-posing concept is noticeable in the research literature.
+The traditional research on problem posing in mathematics education, despite some major shortcomings in relation to Freire's legacy, has offered important tools to support students' mathematical and quantitative literacy.
+When we integrate these various components, we arrive at an important impasse that is often overlooked: the future of interdisciplinary learning.
+Given that new quantitative and computational software tools are introduced almost weekly, there is a need to consider the role and function of these tools in the future of curriculum studies.
+Moreover, as these tools are integrated, the importance of historical knowledge—especially given the gradual ignoring of Freire's contributions to problem posing research—becomes important.
+There are also important considerations around the role of data science as an emerging discipline and field of study has on the future of curriculum studies [@alexander2022beyond].
+
+## Community knowledge and quantitative tools
+
+@gutstein2016our, commenting on Freire's proposal and citing Tate, notes the importance of CM for all students; these notes focus on the function of new technologies, and thus can be extended to the conversation around quantitative tools.
+@tate1994race states that "our highly technological society requires that all students...be prepared to use mathematics to defend their rights" (p. 483).
+By building on Gutstein’s concept of *reading and writing the world with mathematics* (RWWM), we can consider new conceptions of problem posing in mathematical communities across a few different studies that he has published.
+In @gutstein2007connecting, community knowledge refers to “what people already know and bring with them,” whereas critical knowledge is “knowledge about the sociopolitical conditions of one’s immediate and broader existence,” and it includes information about the historical and various social and cultural facets of the surrounding ecological systems.
+Classical knowledge “generally refers to formal, in-school, abstract knowledge” (pp. 110-111).
+Despite what may seem a disparaging remark to classical forms of mathematics, he goes on to note that “while we critique [classical knowledge], we recognize its power and cultural capital and argue that students need to develop it for several reasons” [@gutstein2007connecting, p. 111].
+This acknowledgement of the role of classical mathematics offers an opportunity centered on expanding more “classical” forms of mathematics in problem posing—namely, to integrate the more traditional features of mathematical problem posing with those of social justice pedagogies.
+In particular, this integration provides a bridge for researchers and practitioners in mathematics education to consider what we term critical mathematical problem posing.
+
+One well-known example of a mathematics community with a well-developed set of practices that engages students in critical problem posing is the Algebra Project, founded by the late civil rights activist Robert Parris Moses (Bob Moses).
+The Algebra Project, as well as the Young People’s Project, represents long-standing versions of community-building focused on problem posing in the context of mathematics [@moses58philosophy].
+The Algebra Project is a national literacy effort in U.S. mathematics education aimed at improving the education of low-income students and students of color, and it builds on historical practices that seek to expand literacy among African Americans [@alexander2022legacy].
+the program model is based on the organizing efforts of African Americans in the southern United States [@dubinsky2011philosophy; @moynihan2023s].
+Since its founding in the 1980s, the Algebra Project has maintained that “Math literacy is the key to 21st century citizenship” and, in doing so, has sought to answer two key questions: What mathematics to teach, and how to teach it?
+
+In a seminal paper describing the Algebra Project’s model, the late founder Bob Moses and his colleagues outline some of the core feature of the pedagogical program.
+Specifically, @moses1989algebra note that “teachers assumed the role of ‘coach’ as opposed to ‘lecturer’ in their relationship with students” (p. 431).
+These practices, developed around the spirit and idea of community organizing, relate to Freire’s conceptions of an authentic education.
+@freiri1970pedagogy notes that “authentic education is not carried on by ‘A’ for ‘B’ or by ‘A’ about ‘B,’ but rather by ‘A’ with ‘B,’ mediated by the world—a world which impresses and challenges both parties, giving rise to views or opinions about it” (p. 93).
+In the Algebra Project model, a five-step educational practice is utilized: (1) a physical event, (2) a picture or model of the event, (3) intuitive language description of the event, (4) description of the event in regimented English, and (5) symbolic representation.
+This process outlines a practice based around posing problems in the community’s quest for building mathematical literacy [@alexander2022legacy].
+As educators build on the experiential learning processes outlined by scholars considering quantification and community knowledge, new visions around the future of interdisciplinary learning are realized.
+
+## Historical knowledge and futurity
+
+Most students consider mathematical practice as a tool to get a single answer.
+However, in problem-posing education, the orientations of student work and collaboration is significantly shifted.
+In the course, students utilized the broader curriculum to gradually make sense of different orientations to mathematics.
+This critical orientation requires breaking free from the banking model of education and moving towards what Freire refers to as "liberating education," which "consists in acts of cognition, not transferrals [sic] of information" (p. 79).
+This focus on cognition brings us back to the traditional scholarship on mathematical problem posing, which focuses heavily on the importance of improving student cognition.
+However, the traditional research in this area fails to focus on the importance of historical knowledge and the implementation of social studies into the mathematics curriculum [@mcgee2014historicizing].
+This intersection provides an opportunity for students to build on different strengths.
+
+Currently, as scholars across educational disciplines consider the future of education, the concept of futurity has begun to emerge as a central core to the design and development of new school systems, classrooms, and learning materials in the form of curriculum unit.
+Freire also introduces the concept of futurity in his concept of critical pedagogy.
+He identifies the ways that problem-posing education help to transcend classrooms in ways that do not withhold opportunity from students but, instead, becomes a process of learning that fosters notions of vulnerability to improve learning for all community members involved:
+
+> "Problem-posing education is revolutionary futurity. Hence it is prophetic (and, as such, hopeful). Hence, it corresponds to the historical nature of humankind. Hence, it affirms women and men as beings who transcend themselves, who move forward and look ahead, for whom immobility represents a fatal threat, for whom looking at the past must only be a means of understanding more clearly what and who they are so that they can more wisely build the future. Hence, it identifies with the movement which engages people as beings aware of their incompletion—an historical movement which has its point of departure, its Subjects and its objective" [@freiri1970pedagogy, p. 84].
+
+# Conclusion
+
+Problem-solving and problem-posing are integral components of human development.
+Albert Einstein is commonly quoted as expressing, "All that is valuable in human society depends upon the opportunity for development accorded to the individual," which serves as a reminder of the importance of expanding educational opportunity for youth, families, and communities.
+Einstein's sentiments—as one of the world's foremost problem solvers—also provide scholars with a valuation of opportunity and its role in progressing toward a more equitable society.
+Research scholars and scientists pride themselves on problem-solving, and the work of achieving equity is one of the most enduring problems across systems and in educational contexts [@national2019monitoring].
+Still, despite decades of theory and research on improving equity, less change with regard to traditional practices in science and mathematics has materialized.
+For example, Einstein is far less known for his civil rights activism and specifically his responses to social injustices in the U.S. and abroad [@jerome2005einstein].
+Instead, he is often presented as an apolitical figure.
+References to his problem-solving skills in theoretical physics overshadow his problem-posing efforts toward organizing to achieve a more equitable and humane society.
+
+This gap in our collective knowledge about the most well-renowned figure in science is not only unfortunate, but it reveals a broader divide within the classroom—for instance, between what is considered "academic" and "non-academic," or "appropriate" and "overly political" in the field's discourses regarding professional practices and future visions [see, for example, @goodwin1994professional].
+This gap also calls into question the content and problems that are deemed praiseworthy in traditional settings, especially when constituting knowledge development [@apple1993politics].
+Namely, expanding educational opportunity to a more diverse student population has been hindered by the nature of school mathematics, its impact on our own professional identities, and the seemingly apolitical values that teachers are urged to center in their professional practices.
+Shifting educational paradigms and expanding attacks on equity and opportunity across the disciplines require that we consider alternative forms of problem posing that allow us to rethink the nature of the problems posed so that they inform interdisciplinary learning opportunities.
+In doing so, as we continue to reflect on and challenge our values in our own developments of equity, we must confront the broader purposes of instruction and the content that we teach—especially in the increasing need of collective efforts to challenge the status quo.
+In closing, we might consider some of the following open questions for a critical problem-posing education that informs interdisciplinary learning: Whose curiosities are served by the types of problems posed in future classrooms?
+How do certain problems reduce or limit students’ opportunities to engage in different forms of learning?
+What types of problems can improve cognition and criticality using modern day applications and computational tools that help us imagine more equitable futures?
+
+\newpage
+
+# Notes
+
+1.  It is beyond the scope of this article to provide a full methodological and comprehensive analysis of the broader three-year study from which these vignettes are drawn. Instead, these examples serve to illustrate the various components and potential intersections when considering the use of problem posing pedagogies across disciplines and educational settings.
+2.  Additional details about housing patterns and the measures of residential segregation can be found online at the United States Census Bureau website: <https://www.census.gov/topics/housing/housing-patterns/guidance/appendix-b.html>. These measures are based on the work conducted by @massey1988dimensions.
+3.  The term "open-source" refers to resources, most commonly software, whose design and code are publicly available, helping researchers with replication, collaboration, and adaptation. See @perens1999open for more information.
+4.  Court-mandated racial segregation in the United States was legally dismantled with the Supreme Court's decision in *Brown v. Board of Education* in 1954, which declared state-sponsored segregation in public schools unconstitutional. However, the implementation of this ruling was gradual and met with resistance, particularly in the South. The Civil Rights Act of 1964 further prohibited discrimination based on race, color, religion, sex, or national origin, effectively outlawing segregation in public accommodations and employment.
+5.  Applications of the Prisoner's Dilemma are discussed across different fields of study given its versatile nature. This versatility is based on the framing of problems posed. Although researchers primarily in economics and mathematics study variations of the problem, readers can see @wong2005dynamic for an application in the psychological sciences; @soroos1994global for an application in the enviornmental sciences; and @bruno2018developing for an application in higher education.
+6.  Nicky Case's "The Evolution of Trust" is an interactive simulation that visually demonstrates how trust and cooperation can emerge, even among initially distrustful agents, and how various strategies impact long-term success. Website: <https://ncase.me/trust/>.
+
+(Word count: X,XXX)
+
+\newpage
+
+# References
