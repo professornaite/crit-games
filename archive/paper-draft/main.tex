@@ -1,0 +1,241 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{hyperref}
+\urlstyle{same}
+\usepackage{geometry}
+ \geometry{left=1.25in,top=1.7in}
+\setlength{\parindent}{.5in}
+\renewcommand{\baselinestretch}{1.3}
+\setlength{\parskip}{\baselineskip}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage[labelfont=bf]{caption}
+\captionsetup[figure]{labelfont={bf},name={Figure},labelsep=period}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{titling}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+%\setkomafont{disposition}{\normalfont\bfseries}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,matrix,positioning}
+
+\settowidth{\thanksmarkwidth}{*}
+\setlength{\thanksmargin}{-\thanksmarkwidth}
+\usepackage{titlesec}
+\setlength{\droptitle}{-5em}
+\setlength\thanksmarkwidth{.5em}
+\setlength\thanksmargin{-\thanksmarkwidth}
+\titleformat{\section}{\normalfont\bfseries\filcenter}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\bfseries\filcenter}{}{0pt}{\itshape}
+\titleformat{\subsubsection}{\normalfont\bfseries\filcenter}{}{0pt}{\itshape}
+\titlespacing*{\section}
+  {0pt}{-.1\baselineskip}{-.1\baselineskip}  
+\titlespacing*{\subsection}
+   {0pt}{-.1\baselineskip}{-.1\baselineskip}  
+
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\fontspec{Times New Roman}
+\date{}
+\providecommand{\keywords}[1]
+{
+   \small	
+  \textit{\hspace{-1em} Keywords: } #1
+}
+\newfontfamily\headingfont[]{Arial}
+%Add Author names to headers and footers here:
+\fancypagestyle{firstpage}{
+  \fancyhf{}% clear all fields
+ % \fancyfoot[L]{\color{gray} \footnotesize Copyright \copyright 2021 (Author1, Author2, AuthorN). Licensed under the Creative Commons Attribution Non-commercial No Derivatives (by-nc-nd). Available at: \url{http://journalqd.org}}%
+  \lhead{\color{gray} \footnotesize A QUESTION OF COOPERATION}
+\rhead{\color{gray} \footnotesize \textbf{DRAFT}}
+}
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LO]{\color{gray} \footnotesize Journal of Quantitative Description: Digital Media 1(2021)}
+\fancyhead[RO]{\color{gray} \footnotesize A Question of Cooperation \thepage}
+\fancyhead[LE]{\color{gray} \footnotesize Cooper \textit{\&} Alexander}
+%\fancyhead[RE]{ \color{gray} \footnotesize Journal of Quantitative Description: Digital Media 1(2021) \thepage}
+% DO NOT MAKE CHANGES ABOVE THIS LINE
+%Article Title goes here
+\title{\normalsize \headingfont \textbf{Game Theory, Philosophy and Race: A Question of Cooperation}} 
+%Author names and affiliations go here, any Acknowledgements / authors' note / disclosure statement goes into \thanks{}
+\author{\normalsize Jalil Cooper \\ \normalsize Maynard Jackson High School
+\\ \\ \normalsize Nathan Alexander \\ \normalsize Morehouse College %\thanks{Author 1: author1's enail address} \thanks{Author 2: author2's enail address} \thanks{Date submitted: XXXX-XX-XX} \thanks{} \thanks{$^{\ast}$Acknowledgements / authors' note / disclosure statement/ funding statement}
+} 
+\usepackage{lipsum}
+\renewcommand\footnotemark{}
+\begin{document}
+\maketitle
+\thispagestyle{firstpage}
+\vspace{-5em}
+\begin{abstract}
+  \noindent 
+In this paper, we take a critical approach to the philosophical foundations of game theory and generate a set of possible social questions related to rationality and the cooperative agent. We examine the well-known Prisoner's Dilemma and explore some early ideas are morality and action to make sense of and define cooperation. More specifically, we build a conceptual model that questions the structural and institutional components of the  Prisoner's Dilemma game, and we explore some of the ways that an historical and critical approach to game theory challenges components of morality, rationality, and cooperation in a material sense of the word.
+\end{abstract}
+
+\keywords{\textit{mathematics, game theory, race, history} \vspace{8ex}}
+
+\newpage
+% OUTLINE
+% 1. Introduction *************BOTH OF US
+% 2. Game Theory (i.e., start with the mathematics) ****NATHAN
+% 2a. Rationality in Game Theory ****NATHAN
+% 2b. Prisoner's Dilemma  ****NATHAN
+%
+%3. Critiques of Game Theory: Rationality, Cooperation, Morality *
+% Rationality has always been one of the more questionable aspects of game theory because the assumption that is made when two players are playing a game is that they are rational. A decision-maker is rational if he makes decisions consistently in pursuit of his own objectives (Myerson 2013). In other words, self-preservation is rational. This definition raises questions about rationality because outside of game theory, hedonism is seen as irrational. Specifically, the political philosopher Thomas Hobbes is the one who posited the idea that man is naturally irrational because man is hedonistic and will pursue his own objectives by any means necessary. Therefore, man needs a sovereign leader with absolute power to mitigate the state of nature. However, by contrasting both definitions of rationality and irrationality we still have the question of what is true rationality? Is it living for yourself or living for others? Not only is this a question of rationality but a question of morality and cooperation as well. As people we consider it to be morally right to be empathetic or carry out good deeds that others benefit from, but that does not necessarily mean that it is morally incorrect to been non-cooperative or only look out for yourself. Or is it?
+
+%3a. Cooperation paralleling Traponomics
+%By considering the quandary of living for yourself or for others in different contexts we can critique the foundations of Game Theory and possibly differentiate rational from irrational or moral from immoral. For example, we can look at the Prisoner’s Dilemma using basic laws from the field of Traponomics as a lens.
+
+%Traponomics: A sub-field of microeconomics concerned with the production, distribution, and protection of an unofficial good.
+
+%For context, we are going off the assumption that the two actors in the Prisoner’s Dilemma were suspects in a functioning drug cartel and they have put the two suspects in separate interrogation rooms to prevent them from communicating with one another. With that scenario established, one of the main philosophies that are instilled within employees of this business is to never cooperate with the police or snitch. In the Prisoner’s Dilemma, snitching is the equivalent of defection, therefore,  cooperation would be staying silent or not complying with the police to prevent them from gaining substantial evidence to imprison you for an extended amount of time. The payoffs, which are years in prison, are generated by the institution of the prison industrial complex. Fundamental laws of economics state that a plea deal or a positive incentive of doing less time in prison for a confession should incentivize the actors to betray one another and defect. However, Traponomics challenges this theory in economics because there is a negative incentive that the suspects deal with outside of the Prisoner’s Dilemma, being that they are violently excluded from the cartel, they lose credibility, respect, and profits. Therefore, in the midst of that interrogation, the actors must weigh their options and determine the better opportunity cost. A secured stream of revenue at the expense of more prison time for not complying (cooperation) for or doing less time in prison at the expense of looking over your shoulder for the rest of your life for aiding the police in destroying a business (defection).
+
+%3b. Formal and Informal cooperation
+%3c. 
+% 4. Tangible ideas of the theoretical critiques (namely: how can we use the examples to advance the reader's understanding?)
+% 4a. "Traponomics" ****Jalil
+% 4b. Democracy (formal and informal sectors), racialized and marginalized groups, historical injustice (morality)
+% 4c. cheating on a test
+% 4d. Geometric model with the burning house analogy (this is the potential basis of future work in this area, also see traponomics)
+%
+% 5. Conclusion and Future Work
+
+% e.g. formal cooperation is like using laws to forward racial injustice; whereas informal cooperation is ensuring survival (selling drugs in the midst of broader sociohistorical inequities;
+
+%page 1 title
+\begin{center}
+{\large Game Theory, Philosophy and Race: A Question of Cooperation}
+\end{center}
+
+
+\newpage
+\section{Introduction}
+
+%I think part of the goal of this paragraph should be to (re)frame mathematics as a useful tool for both the *natural and economic (where game theory was developed) sciences BUT as well as the *social sciences: this where philosophy (being rational) and sociology (cooperation).
+\noindent Mathematics is the language of the sciences. That is the one and the initial perspective that most have about mathematics. However, the Mathematics of Equity class drastically shifted this perception. It was easily the most necessary classes because it initiated an intellectual metamorphosis as it pertained to mathematical knowledge and broadened my scope on mathematics and social justice. I still remember an introductory lecture focused on the  historical work of W.E.B Dubois as a statistician. Pie charts, bar graphs, and other modern statistical models were used by Dubois, in the early 20th century, to quantify the detrimental effects of systematic oppression and the state of race relations. In his famous work known as the Souls of Black Folk, he derives the labor efficiency of negroes from the severity of home and family conditions. He also utilizes economics to illustrate how the white land-owner, post-emancipation, would use positive and negative incentives to exploit the negro for labor while keeping their standard of living relatively low. I’ve always remained highly aware of the plight of Black Americans and I have also been highly interested in mathematics but I never thought that the two disciplines could intersect. 
+
+
+\section{Philosophical Foundations of Game Theory}
+
+%Summary of Game theory here
+Game theory is the economical and mathematical study of strategic decision making, interactions, and agent behaviors in what is generally termed as a rational decision making context. In game theory, as well as artificial intelligence studies and, more broadly, decision theory, rationality refers to an actor's preferences that will support an optimal outcome for this actor in the various scenarios, or contexts, that this actor may be required to make decisions or enact behaviors. Countless examples of these options have been modeled and examined using the Prisoner's Dilemma, a well-known game theory problem at the intersection of mathematics, economics and the decision sciences. At its core, the Prisoner's Dilemma is a question of individuality in the context of cooperation (to betray or not to betray). Many mathematicians and economists have discussed these themes as well as critiques of this model, however.
+
+\section{The Prisoner's Dilemma}
+
+%summary of the The Prisoner's Dilemma goes here
+\noindent The Prisoner's Dilemma was introduced by Merrill Flood and Melvin Dresher in 1950 while the two were at the RAND Corporation. RAND stands for ``research and development".
+
+%Summary and standard payoff matrix goes here
+
+\begin{figure}[h]
+\centering
+\caption{A standard Payoff Matrix in the Prisoner's Dilemma}
+\label{Collective action problem in the Prisoners' Dilemma}
+\begin{tikzpicture}[element/.style={ minimum width=1.75cm,minimum height=0.85cm}]
+\matrix (m) [matrix of nodes,nodes={element},column sep=-\pgflinewidth, row sep=-\pgflinewidth,]{
+         & Cooperate & Defect  \\
+Cooperate & |[draw]|3,3 & |[draw]|1,4 \\
+Defect & |[draw]|4,1 & |[draw]|2,2 \\
+};
+\node[above=0.25cm] at ($(m-1-2)!0.5!(m-1-3)$){\textbf{Actor A}};
+\node[rotate=90] at ($(m-2-1)!0.5!(m-3-1)+(-1.25,0)$){\textbf{Actor B}};
+ \node [below=1.5cm, align=flush center,text width=8cm]
+        {\begin{scriptsize}
+                   
+        \end{scriptsize}
+        };
+\end{tikzpicture}
+\end{figure}
+
+\section{A Critical Race Approach to Game Theory}
+
+Critical Race Theory (CRT) is a seminal framework and area of inquiry developed by many scholars of color. CRT evolved as a critique of critical legal studies (CLS), a movement focused on the various ways that laws are used to maintain the status quo through the extension of power structures and systemic inequities. CRT situates the role of race in the maintenance of these power structures, and examine the legal contexts to which many of these powers are maintained. This line of thinking and practice has been an important component to advancing social and civil rights to historically marginalized communities, such as Indigenous communities and Native Americans, African Americans, and as well as Latina/o and south and southeast Asian communities. The common relation to these various groups is in contrast to the development of a white racial group.
+
+\textbf{Race}. When you hear someone say that ``Race is a social construct' with material influences and implications, thus it is real - what you are seeing is the intersection of and development around philosophy, sociology, and futurity. Specifically, race is a concept developed to forward various political motivations in the need to group populations. However, its impacts are felt in real and material ways by communities and individuals, each of vulnerably and historically marginalized groups, among others.
+
+
+Rationality has always been one of the more questionable aspects of game theory because the assumption that is made when two players are playing a game is that they are rational. A decision-maker is rational if he makes decisions consistently in pursuit of his own objectives (Myerson 2013). In other words, self-preservation is rational. This definition raises questions about rationality because outside of game theory, hedonism is seen as irrational. Specifically, the political philosopher Thomas Hobbes is the one who posited the idea that man is naturally irrational because man is hedonistic and will pursue his own objectives by any means necessary. Therefore, man needs a sovereign leader with absolute power to mitigate the state of nature. However, by contrasting both definitions of rationality and irrationality we still have the question of what is true rationality? Is it living for yourself or living for others?
+
+
+
+The focus of our research was using mathematical information to answer this abstract question, but to do this I had to make the theoretical concept more tangible. So I looked at different aspects of the social sciences where game theory could be applied, it is primarily used in economics but much like how we used math in the Mathematics of Equity class, I wanted to apply my mathematical knowledge to race relations. That is when I recalled a conversation about Malcolm X. I was given a misinterpreted analogy about the state of POC (people of color) collaboration in the U.S. “If your house is burning and your neighbor's house is burning at the same time, who’s fire would you be concerned about first, yours or your neighbors?” For context, the burning houses represent America for different oppressed people groups (i.e black people, Latino people, indigenous people). Nevertheless, most people assume the logical answer is that you would be concerned about your house. But could that be irrational if we consider the ideas of Hobbes? What if you were to help your neighbor first and your neighbor aids you? Hence the inception of the Malcolm X Burning House Game.
+
+
+\section{Malcolm X: Burning House Game}
+We designed the Malcolm X Burning House game to prove that mutual cooperation is true rationality, especially between minorities as it pertains to fighting oppression in America. The game begins with a few essential parameters: both houses are the same size and in the same conditions, both houses have the same # of members (x > 1), Equally severe fires*, All members have escaped, there are Various resources between both households!
+The parameter stating that there are various resources between both houses is key because the implication behind this assumption is that each respective house has different tools that one another can take advantage of, making cooperation a realistic option in this scenario. For example, one household may have buckets while the other house has a functioning hose, so mutual cooperation would be each neighbor works together by filling up buckets of water to extinguish the fire. Furthermore, the payoff matrix for our game is based on geometric models which represent the two burning houses. Each cube has 3 visible surfaces and each surface of the cube signifies a different part of the house. These two-dimensional surfaces have also been sectioned off into 3 by 3 grids. As a result, our three-dimensional model is composed of 27 smaller squares. As we transitioned from the geometric models to the actual payoff matrix we had to consider the 27-square maximum as we experimented with different values. In order to develop the ideal payoff matrix we had to address a dilemma of Nash Equilibrium with variables and inequalities.
+
+\begin{figure}[h]
+\centering
+\caption{Payoff Matrix framework relating P, R, S, and T}
+\label{Collective action problem in the Prisoners' Dilemma}
+\begin{tikzpicture}[element/.style={ minimum width=1.75cm,minimum height=0.85cm}]
+\matrix (m) [matrix of nodes,nodes={element},column sep=-\pgflinewidth, row sep=-\pgflinewidth,]{
+         & Cooperate & Defect  \\
+Cooperate & |[draw]|R,R & |[draw]|S,T \\
+Defect & |[draw]|T,S & |[draw]|P,P \\
+};
+\node[above=0.25cm] at ($(m-1-2)!0.5!(m-1-3)$){\textbf{Actor A}};
+\node[rotate=90] at ($(m-2-1)!0.5!(m-3-1)+(-1.25,0)$){\textbf{Actor B}};
+ \node [below=1.5cm, align=flush center,text width=8cm]
+        {\begin{scriptsize}
+                   
+        \end{scriptsize}
+        };
+\end{tikzpicture}
+\end{figure}
+
+%Geometric models will be show here
+% https://www.sciencealert.com/a-professor-explains-how-1980s-game-theory-could-explain-how-morality-evolved
+
+% Single play: 
+
+%T > R > P > S - in this inequality, mutual defection is preferred (i.e., the Nash equilibrium) if the "rational" thinker is optimizing their individual outcome
+
+%R > T says that my cooperation is preferred over possible defection.
+
+%Mutual cooperation: 2R > T + S makes mutual cooperation the Nash equilibrium 
+
+%Trapenomics, illicit activity (making money illegally) within your neighborhood can lead to getting caught by the police. Since the "business" includes more than one person they separate the foot soldiers to gain a confession and send them to prison. But by law, the two suspects know that working with the police or confessing (defection) they will get more time in prison. Therefore, they cooperate with one another (by staying silent) to prevent giving the institution evidence to imprison them.
+
+In the context of the Prisoner’s Dilemma framework where cooperation is rooted at the center of the model, we notice an issue with satisfying the Nash equilibrium. For example, if we model outcomes using the following inequality:
+
+\begin{equation}
+2R > T + S 
+\end{equation}
+
+where $R$ is mutual cooperation and $T$ and $S$ represent each of the two outcomes when at least one actor deflects. For example, we notice that the inequality is not satisfied given the values $R=5$, $S=1$,$T=10$ since
+
+\begin{equation} 
+2(5) \not> 10 + 1
+\end{equation}
+
+In order to satisfy the equation we would have to increase the payoff for mutual cooperation from 5 to 6. In the context of this game, an increase in payoff does not incentivize the players to cooperate (confess). This flaw made me realize that the equation 2R > T + S insinuates that the higher quantitative payoff for both players will always lead to mutual cooperation because the higher number is deemed “better”, but if a game is given context, the higher number may be more detrimental than beneficial.To alleviate this issue we came up with this outline for our payoff matrix. 
+S < M < P < E and 2P < S + E
+And the values that can be used for the game goes as follows: S = 9, M = 4, P = 3, E = 2. These values represent the number of squares that are burned in one's house based on each player's decision. The goal at the end of the game is to have the lowest number of shaded squares (or the least burnt house).  
+
+%Malcolm X Burning House Payoff matrix will go here
+
+Yet the question still remains, what will incentivize players to carry out mutual cooperation? That is when our question re-emerges, should I live for myself or live for others? This is a question of morality and rationality when this game is put into context because you have to imagine these houses as people groups. People or color, low income people, and indigenous people are all different communities that are oppressed in this country, their houses have been burning. Would it really be moral to focus on your house at the expense of another group? In the end, minority groups in the country can alleviate political discrimination, economic exploitation, and social degradation by uniting rather than defecting each other. Therefore, we should strive to live for others.
+
+
+\section{Conclusions and Next Steps}
+
+Cooperation is a critical factor in our lives as it supports improving and advancing society through better and evolving sets of mutual agreements. However, cooperation is becoming less of a factor in discussions of equity and social justice due to long histories of injustice, especially in the United States. Across the world, mathematics is generally considered as a computational and investigative strategy that can be primarily used to advance abstract and applied or scientific advances in knowledge. However, mathematics has become an increasingly insightful tool when utilized in the social, cultural, and economic sciences. One standard and original example of this powerful connection in the economic sciences is known as the  Prisoner's Dilemma. This game sets a framework for questions about when it is worth trusting someone, where worth is generally measured in a series of ``payoffs" that creates an interesting quandary.
+
+\noindent More generally, the Prisoner's Dilemma is a standard example of the type of game that would be analyzed in game theory. These games were initially situated around conceptions of how two \textit{rational} individuals might behave if given the opportunity to cooperate with or betray a friend or acquaintance. Some have viewed this game as a potential measure of loyalty. Importantly, discussions of the original model are often situated around the issue of the two prisoners who, in their precarious position, must decide to betray or cooperate this other person. However, no information is provided about the prison and its role as an institution, or the reasoning behind the different payoffs, and the specific payoffs provided to the prisoners was not originally discussed.
+
+\noindent In this article, we build on the work of critical economists and mathematicians to discuss our research at the intersection of game theory and critical theory. We explore how classic philosophical thought may have informed game theory, and the resulting questions around what it means to be rational and the idea of cooperation. To relate this work to our current moment, we  the issue of race in the United States and beyond. 
+
+\bibliography{ref}
+
+\end{document}
