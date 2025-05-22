@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/*	version: "v4.3"	*/
+/* CSS Document */
+
+:root {
+	--full-width: 160px;
+	--full-height: 600px;
+	--red: #ec0c21;
+	--khaki: #f2ddbb;
+	--white: #f7f0e4;
+}
+
+.copy-bold {
+	font-weight: 600;
+	font-size: 20px;
+    line-height: 21px;
+	color: #fff;
+	
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-text-size-adjust: 100%;
+    letter-spacing: 0.5px;
+}
+
+.copy-reg {
+	color: #fff;
+	font-size: 20px;
+	line-height: 21px;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* End Font Styles */
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+body {
+	display: none;
+}
+
+#unit-container {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#main-panel {
+	background-color: var(--red);
+}
+
+.panel {
+	overflow: hidden;
+}
+
+img, svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.full-col { width: var(--full-width); height: var(--full-height); }
+
+.full-exp {
+	
+}
+
+.free {
+	position: absolute;
+}
+
+.centered {
+	text-align: center;
+}
+
+.no-point {
+	pointer-events: none !important;
+}
+
+
+
+
+#intro {
+	z-index: 2;
+	left: 15px;
+    top: 85px;
+}
+
+.intro {
+	left: 1px;
+    width: 130px;
+	top: 0;
+    transform-origin: 50% 50%;
+	transform: translateX(-25px);
+    opacity: 0;
+}
+
+.intro span {
+    display: inline-block;
+    position: relative;
+    margin-right: 3px;
+}
+sup {
+    position: absolute;
+    font: normal 14px/26px 'Mecherle-Legal';
+    top: -5px;
+}
+.intro sup {
+    font-size: 0.55em;
+    line-height: 1.2em;
+    top: 0;
+    right: -6px;
+}
+
+.intro .tm {
+    right: -10px;
+}
+
+#intro2 {
+	transform: translateX(-25px) scale(0.94);
+	transform-origin: top left;
+}
+
+#portal {
+    width: 295px;
+    height: 228px;
+    margin-top: 291px;
+    overflow: hidden;
+    transform-origin: 0% 0%;
+    transform: translateX(300px);
+    display: inline-block;
+    z-index: 2;
+}
+
+#orb {
+    width: 331px;
+    height: 228px;
+    left: 15px;
+    bottom: 0;
+}
+
+#ls {
+	width: 160px;
+    height: 140px;
+	background: url(../images/img.png) top left no-repeat;
+	opacity: 0;
+	z-index: 2;
+	top: 36px;
+	left: 1px;
+}
+
+#cta svg {
+    overflow: visible;
+}
+
+#cta, #cta_red, #cta_white {
+	width: 97px;
+    height: 36px;
+}
+
+#cta {
+	left: 15px;
+    opacity: 0;
+}
+
+#cta_red {
+	z-index: 2;
+	opacity: 0;
+}
+
+p {
+	margin: 0;
+}
+
+#legal, #legal2 {
+    font: normal 8px/8px 'Mecherle-Legal';
+    transform-origin: 100% 0%;
+    bottom: 15px;
+    left: 15px;
+    width: 125px;
+    opacity: 0;
+    color: #fff;
+}
+
+#legal sup, #legal2 sup {
+	position: absolute;
+    font: normal 5px/15px 'Mecherle-Legal';
+    top: -4px;
+    left: -3px;
+}
+
+#logo {
+	top: 22px;
+    left: 13px;
+    transform-origin: top left;
+    transform: scale(0.16);
+}
+
+#logo-container,
+#ellipses {
+	left: 0px;
+	top: 0px;
+}
+
+.logo-part {
+    overflow: hidden;
+}
+
+.logo-part svg {
+    position: absolute;
+    width: 680px;
+}
+
+#logo-orbs,
+#ellipses {
+	width: 145px;
+	height: 95px;
+}
+
+#logo-orbs {
+    opacity: 0;
+}
+
+#orbs-reg {
+	font-size: 16px;
+    color: #fff;
+    left: 146px;
+    font-weight: 500;
+    top: 75px;
+	opacity: 0;
+}
+
+#logo-name {
+	width: 535px;
+	height: 95px;
+	left: 145px;
+    
+    -moztransform: translate(-40px);
+    -webkit-transform: translate(-40px);
+    transform: translate(-40px);
+    opacity: 0;
+}
+
+#logo-name svg {
+	left: -145px;
+}
+
+.ellipse {
+    width: 145px;
+    height: 109px;
+    
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    
+    -moztransform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
