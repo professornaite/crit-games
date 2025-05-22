@@ -60,7 +60,7 @@ Rational choice models are powerful but limited. They assume a level playing fie
 - Move beyond static equilibria to consider processes of learning, dialogue, and transformation.
 - Address issues of justice, emancipation, and collective action that rational choice theory often overlooks.
 
-# Comparing Theoretical Frameworks
+# Comparing Theoretical Frameworks 
 
 The following table summarizes key differences between rational choice theory and critical theory approaches in the context of game theory:
 
