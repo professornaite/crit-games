@@ -27,7 +27,7 @@ editor_options:
 
 # Abstract
 
-This paper critically examines the philosophical foundations of game theory, contrasting rational choice theory with critical theory approaches. We argue that while rational choice theory offers powerful tools for modeling strategic interaction, its reliance on instrumental rationality and utility maximization limits its ability to address questions of justice, power, and historical context. Drawing on critical theory, particularly from the Frankfurt School and Critical Race Theory, we propose a broader conception of rationality—one that incorporates communicative action, normative reasoning, and structural critique.
+This paper critically examines the philosophical foundations of game theory, contrasting rational choice theory with critical theory approaches. We argue that while rational choice theory offers powerful tools for modeling strategic interaction, its reliance on instrumental rationality and utility maximization limits its ability to address questions of justice, power, and historical context. Drawing on critical theory, particularly from the Frankfurt School and Critical Race Theory, we propose a broader conception of rationality—one that incorporates communicative action, normative reasoning, and structural critique. Github token check for changes made to this document
 
 # Keywords
 
