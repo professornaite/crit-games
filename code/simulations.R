@@ -1,4 +1,4 @@
-# this file will contain simulations of the game theory analysis
+ # this file will contain simulations of the game theory analysis
 
 # Cold War Nuclear Deterrence Game Theory Simulation
 # Simulates US-USSR nuclear strategy interactions based on arsenal sizes
