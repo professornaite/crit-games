@@ -49,17 +49,6 @@ However, such models often abstract away from questions about the legitimacy of 
 Critical theory, in contrast, interrogates the assumptions underlying these models, asking not only how actors pursue their interests, but also whether those interests themselves are just, and how they are shaped by broader social forces.
 This paper argues that a critical theory approach to game theory is necessary to address the limitations of rational choice models, especially when analyzing issues of justice, race, and collective action.
 
-@coates2018we
-
-Coates notes these important things @coates2018we.
-
-Coates notes these important things Coates (2018).
-
-[@coates2018we] (Coates, 2018).
-
-Coates [-@coates2018we].
-Coates (2018)
-
 # Rational Choice Theory: Foundations and Limits
 
 Rational choice theory posits that individuals act to maximize their own utility, using all available information to make decisions that best serve their interests.
@@ -108,6 +97,10 @@ The following table summarizes key differences between rational choice theory an
 Traditional game theory models the Prisoner's Dilemma as a problem of trust and strategic calculation.
 However, when viewed through a critical lens, we see that the "game" is embedded in broader social structures—laws, norms, histories of cooperation or betrayal—that shape what is rational for each player.
 For example, in contexts marked by systemic injustice or mistrust (such as racialized policing or economic exploitation), the standard rational choice solution may reinforce, rather than resolve, underlying problems.
+
+# Next Steps: Data Mapping from a Critical Approach
+
+
 
 # Conclusion
 
