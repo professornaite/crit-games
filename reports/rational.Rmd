@@ -27,7 +27,10 @@ editor_options:
 
 # Abstract
 
-This paper critically examines the philosophical foundations of game theory, contrasting rational choice theory with critical theory approaches. We argue that while rational choice theory offers powerful tools for modeling strategic interaction, its reliance on instrumental rationality and utility maximization limits its ability to address questions of justice, power, and historical context. Drawing on critical theory, particularly from the Frankfurt School and Critical Race Theory, we propose a broader conception of rationality—one that incorporates communicative action, normative reasoning, and structural critique. Github token check for changes made to this document
+This paper critically examines the philosophical foundations of game theory, contrasting rational choice theory with critical theory approaches.
+We argue that while rational choice theory offers powerful tools for modeling strategic interaction, its reliance on instrumental rationality and utility maximization limits its ability to address questions of justice, power, and historical context.
+Drawing on critical theory, particularly from the Frankfurt School and Critical Race Theory, we propose a broader conception of rationality—one that incorporates communicative action, normative reasoning, and structural critique.
+Github token check for changes made to this document
 
 # Keywords
 
@@ -37,64 +40,120 @@ mathematics, game theory, rationality, critical theory, race, history
 
 # Introduction
 
-Game theory and rational choice theory have become central to the analysis of strategic decision-making in economics, political science, and beyond. These frameworks model individuals as utility-maximizers, making choices that are logically consistent and strategically sound. However, such models often abstract away from questions about the legitimacy of goals, the influence of social structures, and the role of communication and power. 
+[@coates2018we]
 
-Critical theory, in contrast, interrogates the assumptions underlying these models, asking not only how actors pursue their interests, but also whether those interests themselves are just, and how they are shaped by broader social forces. This paper argues that a critical theory approach to game theory is necessary to address the limitations of rational choice models, especially when analyzing issues of justice, race, and collective action.
+Game theory and rational choice theory have become central to the analysis of strategic decision-making in economics, political science, and beyond.
+These frameworks model individuals as utility-maximizers, making choices that are logically consistent and strategically sound.
+However, such models often abstract away from questions about the legitimacy of goals, the influence of social structures, and the role of communication and power.
+
+Critical theory, in contrast, interrogates the assumptions underlying these models, asking not only how actors pursue their interests, but also whether those interests themselves are just, and how they are shaped by broader social forces.
+This paper argues that a critical theory approach to game theory is necessary to address the limitations of rational choice models, especially when analyzing issues of justice, race, and collective action.
+
+@coates2018we
+
+Coates notes these important things @coates2018we.
+
+Coates notes these important things Coates (2018).
+
+[@coates2018we] (Coates, 2018).
+
+Coates [-@coates2018we].
+Coates (2018)
 
 # Rational Choice Theory: Foundations and Limits
 
-Rational choice theory posits that individuals act to maximize their own utility, using all available information to make decisions that best serve their interests. In game theory, this translates to players choosing strategies that yield the highest expected payoffs, given the strategies of others. The Nash equilibrium is a central concept, representing a stable state where no player can benefit by unilaterally changing their strategy.
+Rational choice theory posits that individuals act to maximize their own utility, using all available information to make decisions that best serve their interests.
+In game theory, this translates to players choosing strategies that yield the highest expected payoffs, given the strategies of others.
+The Nash equilibrium is a central concept, representing a stable state where no player can benefit by unilaterally changing their strategy.
 
-While rational choice theory provides a clear and empirically testable framework, it has been criticized for its reliance on instrumental rationality—focusing solely on the most efficient means to achieve given ends, without questioning the ends themselves. Critics argue that this approach cannot account for the moral, normative, or communicative dimensions of social life, nor for the ways in which power and historical context shape individual preferences and choices.
+While rational choice theory provides a clear and empirically testable framework, it has been criticized for its reliance on instrumental rationality—focusing solely on the most efficient means to achieve given ends, without questioning the ends themselves.
+Critics argue that this approach cannot account for the moral, normative, or communicative dimensions of social life, nor for the ways in which power and historical context shape individual preferences and choices.
 
 # Critical Theory: Beyond Instrumental Rationality
 
-Critical theory, particularly as developed by the Frankfurt School, challenges the narrow focus on instrumental rationality in rational choice models. Instead, it advocates for communicative rationality, emphasizing the importance of dialogue, mutual understanding, and the legitimacy of goals. Critical theory is concerned with exposing and challenging power structures, questioning whose interests are served by existing social arrangements, and seeking emancipation through rational critique. In the context of game theory, a critical approach asks not only how individuals strategize, but also how the rules of the game are set, who benefits from them, and how they might be transformed to promote justice and equality. Critical Race Theory further extends this analysis by highlighting how race, history, and institutional power shape both the structure of games and the rationality of agents.
+Critical theory, particularly as developed by the Frankfurt School, challenges the narrow focus on instrumental rationality in rational choice models.
+Instead, it advocates for communicative rationality, emphasizing the importance of dialogue, mutual understanding, and the legitimacy of goals.
+Critical theory is concerned with exposing and challenging power structures, questioning whose interests are served by existing social arrangements, and seeking emancipation through rational critique.
+In the context of game theory, a critical approach asks not only how individuals strategize, but also how the rules of the game are set, who benefits from them, and how they might be transformed to promote justice and equality.
+Critical Race Theory further extends this analysis by highlighting how race, history, and institutional power shape both the structure of games and the rationality of agents.
 
 # Why a Critical Theory Approach to Game Theory?
 
-Rational choice models are powerful but limited. They assume a level playing field, fixed preferences, and purely strategic interaction. However, real-world social and political dilemmas are shaped by historical injustices, structural inequalities, and contested norms. Critical theory provides tools for interrogating these background conditions, revealing how rationality itself is socially constructed and politically contested. By considering the role of critical theory into game theory, we can:
+Rational choice models are powerful but limited.
+They assume a level playing field, fixed preferences, and purely strategic interaction.
+However, real-world social and political dilemmas are shaped by historical injustices, structural inequalities, and contested norms.
+Critical theory provides tools for interrogating these background conditions, revealing how rationality itself is socially constructed and politically contested.
+By considering the role of critical theory into game theory, we can:
 
-- Question the legitimacy of goals and preferences, not just the efficiency of strategies.
-- Analyze how power, history, and identity shape strategic interaction.
-- Move beyond static equilibria to consider processes of learning, dialogue, and transformation.
-- Address issues of justice, emancipation, and collective action that rational choice theory often overlooks.
+-   Question the legitimacy of goals and preferences, not just the efficiency of strategies.
+-   Analyze how power, history, and identity shape strategic interaction.
+-   Move beyond static equilibria to consider processes of learning, dialogue, and transformation.
+-   Address issues of justice, emancipation, and collective action that rational choice theory often overlooks.
 
-# Comparing Theoretical Frameworks 
+# Comparing Theoretical Frameworks
 
 The following table summarizes key differences between rational choice theory and critical theory approaches in the context of game theory:
 
-| Aspect                | Rational Choice Theory                     | Critical Theory Approach                   |
-|-----------------------|--------------------------------------------|--------------------------------------------|
-| Core Rationality      | Instrumental (utility-maximization)        | Communicative, normative, emancipatory     |
-| Focus                 | Strategy, equilibrium, efficiency          | Power, justice, legitimacy, transformation |
-| Assumptions           | Fixed preferences, level playing field     | Socially constructed preferences, inequality|
-| Critique              | Limited to strategic reasoning             | Questions goals, rules, and power relations|
-| Methodology           | Mathematical modeling, prediction          | Critique, dialogue, historical analysis    |
-| Key Limitation        | Ignores context, power, and history        | May lack predictive precision              |
+| Aspect | Rational Choice Theory | Critical Theory Approach |
+|------------------------|------------------------|------------------------|
+| Core Rationality | Instrumental (utility-maximization) | Communicative, normative, emancipatory |
+| Focus | Strategy, equilibrium, efficiency | Power, justice, legitimacy, transformation |
+| Assumptions | Fixed preferences, level playing field | Socially constructed preferences, inequality |
+| Critique | Limited to strategic reasoning | Questions goals, rules, and power relations |
+| Methodology | Mathematical modeling, prediction | Critique, dialogue, historical analysis |
+| Key Limitation | Ignores context, power, and history | May lack predictive precision |
 
 # Illustrative Case: The Prisoner's Dilemma Revisited
 
-Traditional game theory models the Prisoner's Dilemma as a problem of trust and strategic calculation. However, when viewed through a critical lens, we see that the "game" is embedded in broader social structures—laws, norms, histories of cooperation or betrayal—that shape what is rational for each player. For example, in contexts marked by systemic injustice or mistrust (such as racialized policing or economic exploitation), the standard rational choice solution may reinforce, rather than resolve, underlying problems.
+Traditional game theory models the Prisoner's Dilemma as a problem of trust and strategic calculation.
+However, when viewed through a critical lens, we see that the "game" is embedded in broader social structures—laws, norms, histories of cooperation or betrayal—that shape what is rational for each player.
+For example, in contexts marked by systemic injustice or mistrust (such as racialized policing or economic exploitation), the standard rational choice solution may reinforce, rather than resolve, underlying problems.
 
 # Conclusion
 
-While rational choice theory and game theory have contributed much to our understanding of strategic interaction, their limitations become apparent when addressing issues of justice, power, and historical context. Critical theory offers essential tools for broadening our conception of rationality, enabling us to ask not only how individuals pursue their interests, but also whose interests matter, and under what conditions. A critical approach to game theory is thus not only desirable, but necessary for analyzing the most pressing social and political challenges of our time.
+While rational choice theory and game theory have contributed much to our understanding of strategic interaction, their limitations become apparent when addressing issues of justice, power, and historical context.
+Critical theory offers essential tools for broadening our conception of rationality, enabling us to ask not only how individuals pursue their interests, but also whose interests matter, and under what conditions.
+A critical approach to game theory is thus not only desirable, but necessary for analyzing the most pressing social and political challenges of our time.
 
 # References
 
-Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. *Science, 211*(4489), 1390–1396. https://doi.org/10.1126/science.7466396
+Axelrod, R., & Hamilton, W. D.
+(1981).
+The evolution of cooperation.
+*Science, 211*(4489), 1390–1396.
+<https://doi.org/10.1126/science.7466396>
 
-Binmore, K. (2007). Rationality and game theory. In A. R. Mele & P. Rawling (Eds.), *The Oxford Handbook of Rationality* (pp. 179–208). Oxford University Press.
+Binmore, K.
+(2007).
+Rationality and game theory.
+In A. R. Mele & P.
+Rawling (Eds.), *The Oxford Handbook of Rationality* (pp. 179–208).
+Oxford University Press.
 
-Gibbons, R. (1997). An introduction to applicable game theory. *Journal of Economic Perspectives, 11*(1), 127–149. https://doi.org/10.1257/jep.11.1.127
+Gibbons, R.
+(1997).
+An introduction to applicable game theory.
+*Journal of Economic Perspectives, 11*(1), 127–149.
+<https://doi.org/10.1257/jep.11.1.127>
 
-Maynard Smith, J., & Price, G. R. (1973). The logic of animal conflict. *Nature, 246*, 15–18. https://doi.org/10.1038/246015a0
+Maynard Smith, J., & Price, G. R.
+(1973).
+The logic of animal conflict.
+*Nature, 246*, 15–18.
+<https://doi.org/10.1038/246015a0>
 
-Neumann, J. von, & Morgenstern, O. (1944). *Theory of games and economic behavior*. Princeton University Press.
+Neumann, J.
+von, & Morgenstern, O.
+(1944).
+*Theory of games and economic behavior*.
+Princeton University Press.
 
-Osborne, M. J., & Rubinstein, A. (1994). *A course in game theory*. MIT Press.
+Osborne, M. J., & Rubinstein, A.
+(1994).
+*A course in game theory*.
+MIT Press.
 
-Schelling, T. C. (1960). *The strategy of conflict*. Harvard University Press.
-
-
+Schelling, T. C.
+(1960).
+*The strategy of conflict*.
+Harvard University Press.
