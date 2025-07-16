@@ -98,7 +98,11 @@ For example, in contexts marked by systemic injustice or mistrust (such as racia
 
 # Next Steps: Data Mapping from a Critical Approach
 
-As we continue investigating this new game theoretic model, with critical theory as the basis, data mapping serves as a unique testing ground for application. In the previous literature, economic models have been employed to reveal nuanced relationships between racial/ethnic identity and existing institutions. For example, in Ta-Nehisi Coates “We Were Eight Years in Power: An American Tragedy,” he references a study from economist Seth Stephens Davidowitz, in which he used spatial data from specific U.S. regions to reveal how racism lost Obama 3 to 5 percentage points in the 2008 popular vote. With respect to this work, we plan to employ spatial mapping, using U.S. census data, to observe relationships between existing institutions and various racial/ethnic identities. And using our new critical game theory framework we want to highlight existing injustices that pervade contemporary social and political systems.
+As we continue investigating this new game theoretic model, with critical theory as the basis, data mapping serves as a unique testing ground for application.
+In the previous literature, economic models have been employed to reveal nuanced relationships between racial/ethnic identity and existing institutions.
+For example, in Ta-Nehisi Coates “We Were Eight Years in Power: An American Tragedy,” he references a study from economist Seth Stephens Davidowitz, in which he used spatial data from specific U.S. regions to reveal how racism lost Obama 3 to 5 percentage points in the 2008 popular vote.
+With respect to this work, we plan to employ spatial mapping, using U.S. census data, to observe relationships between existing institutions and various racial/ethnic identities.
+And using our new critical game theory framework we want to highlight existing injustices that pervade contemporary social and political systems.
 
 # Conclusion
 
